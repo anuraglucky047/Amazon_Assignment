@@ -35,7 +35,7 @@ public class Amazon_Search {
 		//Search for Brand-Titan:
 		driver.findElement(By.linkText("Titan")).click();
 		
-		
+		//Search for Discount-25% Off or more:
 		driver.findElement(By.linkText("25% Off or more")).click();
 		
 		//Get the Fifth Element from the search:
@@ -46,10 +46,6 @@ public class Amazon_Search {
 		//Viewing the Fifth Element:
 		element.click();
 		
-		
-	
-		
-
 	}
 
 }
